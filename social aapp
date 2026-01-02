@@ -1,0 +1,30 @@
+social-meet-app/
+├── backend/                    # Java Spring Boot
+│   ├── src/main/java/com/socialmeet/
+│   │   ├── config/
+│   │   ├── controller/
+│   │   ├── model/
+│   │   ├── repository/
+│   │   ├── service/
+│   │   ├── security/
+│   │   └── dto/
+│   ├── src/main/resources/
+│   └── pom.xml
+├── frontend/                   # React + TypeScript
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── hooks/
+│   │   ├── contexts/
+│   │   └── types/
+│   └── package.json
+├── python-service/            # Python ML Service
+│   ├── app/
+│   │   ├── models/
+│   │   ├── services/
+│   │   ├── algorithms/
+│   │   └── api/
+│   ├── requirements.txt
+│   └── main.py
+└── docker-compose.yml
